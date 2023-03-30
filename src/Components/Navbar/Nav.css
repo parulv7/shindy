@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Fasthand&family=IBM+Plex+Sans&family=Kaushan+Script&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Fasthand&family=IBM+Plex+Sans&display=swap');
+nav {
+    background-color: var(--color-primary-variant);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    color: var(--color-primary);
+    padding: 1rem;
+    font-size: xx-large;
+    font-family: 'Alkatra', cursive;
+/* font-family: 'Delicious Handrawn', cursive;
+font-family: 'Fasthand', cursive;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Alkatra', cursive;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.search_main{
+    background: var(--color-primary) ;
+    height: 3rem;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 25px;
+    width: 19rem;
+    padding: 1rem;
+    /* color: white;
+    background: var(--color-primary) ;
+    position: relative;
+    
+    height: 3rem;
+    width: 16rem;
+    margin: 1rem;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 25px; */
+   
+    
+}
+.input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: large;
+    /* margin: 1rem; */
+    /* background: transparent;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+position: relative;
+outline: 0;
+border: 0;
+margin-top: -2rem; */
+/* padding: .6rem; */
+}
+.search{
+    color: white;
+    /* padding: 0.5rem; */
+    /* height: 1.5rem;
+    width: 1rem; */
+    /* padding: 0.6rem; */
+}
+button{
+    border: 2px solid var(--color-primary);
+    background: transparent;
+    color: var(--color-primary);
+    font-size: large;
+    margin: 1.2rem;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 2rem;
+    /* padding: 0.2rem; */
+   
+}
+button:hover{
+    background: var(--color-primary);
+    color: var(--color-primary-variant);
+}
+
+
+@media screen and (max-width: 600px){
+.logo{
+    width: 100%;
+    /* padding-top: 2rem; */
+    padding: 1.5rem;
+    font-weight: 700;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+}
+.search_main{
+    display: none;
+}
+button{
+   
+    margin: 1.2rem;
+    height: 2rem;
+    width: 5rem;
+    font-size: small;
+}
+.button_d{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    gap: 1px;
+}
+}

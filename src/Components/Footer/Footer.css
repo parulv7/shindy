@@ -1,0 +1,24 @@
+.main_f{
+    background-color: var( --color-primary-variant);
+   justify-content: center;
+   width: 100%;
+   height: 10rem;
+   align-items: center;
+}
+.soc{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: var(--color-primary);
+    align-items: center;
+    padding-top: 4rem;
+    justify-content: center;
+}
+.righhts{
+    color: var(--color-primary);
+    align-items: center;
+    /* top: 5rem; */
+    justify-content: center;
+    font-size: larger;
+    bottom: 10px;
+}

@@ -1,0 +1,29 @@
+header{
+    background: var(--color-primary-variant);
+    justify-items: center;
+    justify-content: center;
+}
+.head_img{
+    height: 22rem;
+    width: 25rem;
+    
+}
+.swiper{
+    display: flex;
+   /* row-gap: 4rem; */
+    gap: 4rem;
+}
+
+@media screen and (max-width: 600px){
+    .swiper{
+        /* flex-wrap: wrap; */
+    }
+    .head_img{
+        height: 9rem;
+        width: auto;
+        
+    }
+    .swiper2{
+        display: inline;
+    }
+}
